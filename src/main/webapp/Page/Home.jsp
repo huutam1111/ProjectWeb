@@ -136,6 +136,7 @@
         </div>
     </div>
 </div>
+    <%@include file="../Component/footer/Footer.jsp"%>
 </body>
 <script src="../EventJs/Swipper.js">
 </script>
