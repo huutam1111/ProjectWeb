@@ -8,33 +8,36 @@
     display: inline-block;
     width: 100%;
 }
-a{
+.footer a{
     color: white;
 }
-.f-top_menu{
+.footer .f-top_menu{
     display: flex;
 
 }
-.f-title{
+.footer .f-title{
     font-size: 20px;
 }
 
 
-.f-menu{
+.footer .f-menu{
     list-style-type: none;
     padding: 0;
     color: white;
 }
-.f-menu a{
-    
+.footer .f-menu a{
+
     color: white;
 }
-.f-menu a:hover{
-    
+.footer .f-menu a:hover{
+
     color: white;
     text-decoration: none;
 }
-.f-social{
+.footer{
+
+}
+.footer .f-social{
     display: flex;
     flex-direction: column;
     font-size: 25px;
@@ -42,45 +45,45 @@ a{
     flex-wrap: wrap;
 
 }
-.f-social a{
+.footer .f-social a{
     color: white;
 }
-.f-social a:hover{
+.footer .f-social a:hover{
     color: white;
     text-decoration: none;
 }
-.f-social span.txt{
+.footer .f-social span.txt{
     font-size: 16px;
 }
 
-.f-top_infomation .top{
+.footer .f-top_infomation .top{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.elm_left .info-title{
+.footer .elm_left .info-title{
     font-size: 22px;
 }
-.elm_right{
+.footer .elm_right{
     margin-top: 15px;
 }
-.elm_right a{
+.footer .elm_right a{
     color: white;
     font-size: 16px;
-    }
-.mt-5{
+}
+.footer .mt-5{
     margin-top: 0;
 }
-.footer .line{
+.footer .footer .line{
     height: 1px;
     background-color: #56A1EE;
     margin: 20px 0 15px 0;
 }
 @media only screen and (max-width: 940px) {
-    .f-top_menu{
+    .footer .f-top_menu{
         display: block;
-      
-    
+
+
     }
-  }
+}
