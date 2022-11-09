@@ -22,7 +22,11 @@
     </style>
 </head>
 <body>
+<<<<<<< HEAD
 <%@include file="../Component/header/Header.jsp" %>
+=======
+<%@include file="../component/header/Header.jsp" %>
+>>>>>>> c380fd4 (Them Page Login/Register, mua bán oto, Gia xeo oto, chi tiết giá xe oto)
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -62,12 +66,20 @@
                     <div class="list-slide brandall-car swiper-container swiper-container-horizontal">
                         <div class="slide swiper-wrapper">
                             <div class="item i-toyota swiper-slide swiper-slide-active" style="width: 190px;"><a
+<<<<<<< HEAD
                                     href="/mua-ban-xe-toyota"> <span data-gtm-vis-recent-on-screen-13008071_909="1419"
+=======
+
+<%--                                    Gọi Api--%>
+
+                                    href="./Filter.jsp"> <span data-gtm-vis-recent-on-screen-13008071_909="1419"
+>>>>>>> c380fd4 (Them Page Login/Register, mua bán oto, Gia xeo oto, chi tiết giá xe oto)
                                                                      data-gtm-vis-first-on-screen-13008071_909="1419"
                                                                      data-gtm-vis-total-visible-time-13008071_909="100"
                                                                      data-gtm-vis-has-fired-13008071_909="1"> <h3> Toyota</h3> </span>
                             </a></div>
                             <div class="item i-hyundai swiper-slide swiper-slide-next" style="width: 190px;"><a
+<<<<<<< HEAD
                                     href="/mua-ban-xe-hyundai"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Hyundai</h3> </span> </a></div>
                             <div class="item i-vinfast swiper-slide" style="width: 190px;"><a
@@ -92,6 +104,32 @@
                                 <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Peugeot</h3> </span> </a></div>
                             <div class="item i-mercedes-benz swiper-slide" style="width: 190px;"><a
                                     href="/mua-ban-xe-mercedes-benz"> <span
+=======
+                                    href="./Filter.jsp"> <span
+                                    data-gtm-vis-has-fired-13008071_909="1"> <h3>Hyundai</h3> </span> </a></div>
+                            <div class="item i-vinfast swiper-slide" style="width: 190px;"><a
+                                    href="./Filter.jsp">
+                                <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Vinfast</h3> </span> </a></div>
+                            <div class="item i-kia swiper-slide" style="width: 190px;"><a href="./Filter.jsp"> <span
+                                    data-gtm-vis-has-fired-13008071_909="1"> <h3>KIA</h3> </span> </a></div>
+                            <div class="item i-ford swiper-slide" style="width: 190px;"><a
+                                    href="./Filter.jsp"> <span
+                                    data-gtm-vis-has-fired-13008071_909="1"> <h3>Ford</h3> </span> </a></div>
+                            <div class="item i-mazda swiper-slide" style="width: 190px;"><a
+                                    href="./Filter.jsp"> <span
+                                    data-gtm-vis-has-fired-13008071_909="1"> <h3>Mazda</h3> </span> </a></div>
+                            <div class="item i-honda swiper-slide" style="width: 190px;"><a
+                                    href="./Filter.jsp"> <span
+                                    data-gtm-vis-has-fired-13008071_909="1"> <h3>Honda</h3> </span> </a></div>
+                            <div class="item i-mitsubishi swiper-slide" style="width: 190px;"><a
+                                    href="./Filter.jsp"> <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Mitsubishi</h3> </span>
+                            </a></div>
+                            <div class="item i-peugeot swiper-slide" style="width: 190px;"><a
+                                    href="./Filter.jsp">
+                                <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Peugeot</h3> </span> </a></div>
+                            <div class="item i-mercedes-benz swiper-slide" style="width: 190px;"><a
+                                    href="./Filter.jsp"> <span
+>>>>>>> c380fd4 (Them Page Login/Register, mua bán oto, Gia xeo oto, chi tiết giá xe oto)
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Mercedes</h3> </span>
                             </a></div>
                             <div class="item i-lexus swiper-slide" style="width: 190px;"><a
@@ -127,17 +165,55 @@
 <%--                        ForProduct--%>
                         <c:forEach begin="0" end="7">
                             <div class="col-3">
+<<<<<<< HEAD
                                 <%@include file="../Component/Item/Car/index.jsp" %>
                             </div>
                         </c:forEach>
+=======
+                                <%@include file="../component/Item/Home/Car.jsp" %>
+                            </div>
+                        </c:forEach>
+<%--                        <div class="col-3">--%>
+<%--                            <%@include file="../Component/Item/Car/index.jsp" %>--%>
+<%--                        </div>--%>
+<%--                        <div class="col-3">--%>
+<%--                            <%@include file="../Component/Item/Car/index.jsp" %>--%>
+<%--                        </div>--%>
+<%--                        <div class="col-3">--%>
+<%--                            <%@include file="../Component/Item/Car/index.jsp" %>--%>
+<%--                        </div>--%>
+<%--                        <div class="col-3">--%>
+<%--                            <%@include file="../Component/Item/Car/index.jsp" %>--%>
+<%--                        </div>--%>
+<%--                        <div class="col-3">--%>
+<%--                            <%@include file="../Component/Item/Car/index.jsp" %>--%>
+<%--                        </div>--%>
+<%--                        <div class="col-3">--%>
+<%--                            <%@include file="../Component/Item/Car/index.jsp" %>--%>
+<%--                        </div>--%>
+<%--                        <div class="col-3">--%>
+<%--                            <%@include file="../Component/Item/Car/index.jsp" %>--%>
+<%--                        </div>--%>
+<%--                        <div class="col-3">--%>
+<%--                            <%@include file="../Component/Item/Car/index.jsp" %>--%>
+<%--                        </div>--%>
+>>>>>>> c380fd4 (Them Page Login/Register, mua bán oto, Gia xeo oto, chi tiết giá xe oto)
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<<<<<<< HEAD
     <%@include file="../Component/footer/Footer.jsp"%>
 </body>
 <script src="../EventJs/Swipper.js">
+=======
+
+<%@include file="../component/footer/footer.jsp" %>
+
+</body>
+<script src="../eventjs/Swipper.js">
+>>>>>>> c380fd4 (Them Page Login/Register, mua bán oto, Gia xeo oto, chi tiết giá xe oto)
 </script>
 </html>

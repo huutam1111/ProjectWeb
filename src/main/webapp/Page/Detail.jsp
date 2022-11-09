@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
+<<<<<<< HEAD
 <jsp:include page="../Component/header/Header.jsp" />
+=======
+<%--<jsp:include page="../Component/header/Header.jsp" />--%>
+>>>>>>> c380fd4 (Them Page Login/Register, mua bán oto, Gia xeo oto, chi tiết giá xe oto)
 <div class="container " style="height: auto" id="detailPage">
     <img src="https://img1.oto.com.vn/Static/Images/otocare/web/477_290622_MuaXeTaiDay_AnTamKiemDinh_1140x140.webp" alt="OTOCheck" width="1140" height="140">
     <div class="content-detail">
@@ -188,6 +192,7 @@
     </div>
 
 </div>
+<<<<<<< HEAD
 <jsp:include page="../Component/footer/Footer.jsp" />
 
 </body>
@@ -195,4 +200,13 @@
     <%@include file="slideDetail.js" %>
 
 </script>
+=======
+<%--<jsp:include page="../Component/footer/footer.jsp" />--%>
+
+</body>
+<%--<script>--%>
+<%--    <%@include file="slideDetail.js" %>--%>
+
+<%--</script>--%>
+>>>>>>> c380fd4 (Them Page Login/Register, mua bán oto, Gia xeo oto, chi tiết giá xe oto)
 </html>
