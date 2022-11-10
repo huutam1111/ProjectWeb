@@ -1,13 +1,7 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="Controller.ItemNews" %>
 <%@ page import="java.util.List" %>
-<%@ page import="Controller.Item" %><%--
-  Created by IntelliJ IDEA.
-  User: 84348
-  Date: 11/9/2022
-  Time: 8:41 AM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="Controller.Item" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -30,7 +24,6 @@
     </style>
 </head>
 <body>
-
 <jsp:include page="../Component/header/Header.jsp"></jsp:include>
 <jsp:useBean id="items" class="Controller.RandomNews" scope="request"/>
   <div class="container main" id="news" >
@@ -309,6 +302,6 @@
         </div>
   </div>
 
-<jsp:include page="../Component/footer/Footer.jsp"></jsp:include>
+<jsp:include page="../Component/footer/footer.jsp"></jsp:include>
 </body>
 </html>

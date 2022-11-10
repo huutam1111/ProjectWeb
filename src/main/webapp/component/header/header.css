@@ -32,9 +32,7 @@
 .container {
     max-width: 1170px;
     margin: 0 auto;
-    height: 100%;
     padding: 0 15px;
-    width: 100%;
 }
 
 .head-right .box-login-acc .span-pd, .header .header-top .left-head, .link-chat-bds-content b {
@@ -190,7 +188,7 @@ a {
 
 /*UPDATE khi sữa path*/
 .header .navi .logo {
-    background: url(http://localhost:8080/Img/logo.svg) center top no-repeat;
+    background: url("/Img/logo.svg") center top no-repeat;
     background-size: contain;
     margin-top: 12px;
 }

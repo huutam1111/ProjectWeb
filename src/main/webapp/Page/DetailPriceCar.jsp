@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" %>
-<%@ page isELIgnored="false" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
@@ -16,7 +15,7 @@
           href="https://staticfile.oto.com.vn/dist/web/styles/list-new-detail.min.css.gz?v=638034696078635859">
 </head>
 <body>
-<%@include file="../component/header/Header.jsp" %>
+<jsp:include page="../Component/header/Header.jsp" />
 <div class="container box-wrap-main-content">
     <section class="banner-location-top">
         <section class="cpn-bn-campaign-globals" id="cpn-bn-campaign-globals-23-16"
@@ -523,7 +522,7 @@
         </div>
     </div>
 </div>
-<%@include file="../component/footer/footer.jsp" %>
+<jsp:include page="../Component/footer/footer.jsp" />
 
 </body>
 </html>

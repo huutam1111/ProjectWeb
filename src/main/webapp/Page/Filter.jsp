@@ -24,7 +24,7 @@
     </style>
 </head>
 <body>
-<%@include file="../component/header/Header.jsp" %>
+<jsp:include page="../Component/header/Header.jsp" />
 <div class="container">
     <div class="filter-header">
         <a href="/banner-click-2524?url=https%3a%2f%2foto.com.vn%2f%3fregister" title="New-Account_MinhDA_1140x140"
@@ -401,7 +401,7 @@
             <%--            ListItem--%>
             <div class="box-list-car" id="box-list-car">
                 <c:forEach begin="0" end="20">
-                    <%@include file="../component/Item/Filter/FilterProduct.jsp" %>
+                    <%@include file="../Component/Item/Filter/FilterProduct.jsp" %>
                 </c:forEach>
 
             </div>
@@ -456,12 +456,8 @@
 </div>
 
 </div>
-<%@include file="../component/footer/footer.jsp" %>
+<jsp:include page="../Component/footer/footer.jsp" />
 </body>
-<script src="../eventjs/ReloadListitem.js">
-</script>
-<script src="../eventjs/FilterBrand.js">
-</script>
 <script>
     $(document).ready(function () {
         $("#myInput").on("keyup", function () {
@@ -471,5 +467,9 @@
             });
         });
     });
+</script>
+<script src="../EventJs/ReloadListitem.js">
+</script>
+<script src="../EventJs/FilterBrand.js">
 </script>
 </html>

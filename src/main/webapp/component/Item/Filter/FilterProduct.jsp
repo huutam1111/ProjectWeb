@@ -9,7 +9,7 @@
      data-gtm-vis-first-on-screen-13008071_984="145" data-gtm-vis-total-visible-time-13008071_984="100"
      data-gtm-vis-has-fired-13008071_984="1">
   <div class="photo"><a
-          href="/mua-ban-xe-kia-sonet-ha-noi/giam-them-tien-mat-tang-the-cham-xe-1-nam-aid1xm22661258"
+          href="./Detail.jsp"
           class="rt pdt-per-74"> <img class="lozad"
                                       data-src="https://img1.oto.com.vn/crop/230x172/2022/07/14/20220714140628-2732_wm.jpg"
                                       src="../Img/20220714140628-2732_wm.jpg"
@@ -17,7 +17,7 @@
                                       width="230" height="172" data-loaded="true"> </a> <span
           class="box-icon"> </span></div>
   <div class="info"><h3 class="title "><a
-          href="/mua-ban-xe-kia-sonet-ha-noi/giam-them-tien-mat-tang-the-cham-xe-1-nam-aid1xm22661258"
+          href="./Detail.jsp"
           title="Kia Sonet 1.5 Premium 2022 - Giảm thêm tiền mặt, tặng thẻ chăm xe 1 năm">
     Kia Sonet 1.5 Premium 2022 - Giảm thêm tiền mặt, tặng thẻ chăm xe 1 năm
   </a></h3>

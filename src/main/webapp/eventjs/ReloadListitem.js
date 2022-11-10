@@ -3,14 +3,12 @@ var loading = document.querySelector(".spinner-grow")
 var index = 5;
 var count = 0;
 window.addEventListener("scroll", (e) => {
-    console.log(123)
     var indexScrollBt = document.documentElement.scrollHeight - document.documentElement.scrollTop;
     if (indexScrollBt <= 1500) {
         index += 5;
         loading.classList.remove("hide");
         loading.classList.add("hide");
         updateItem()
-
     }
 
 

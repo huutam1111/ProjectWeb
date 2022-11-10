@@ -2,7 +2,7 @@
 
 <div class="item box-list-car-item box-item-home">
   <div class="photo" style="height: 196px;"><a
-          href="/mua-ban-xe-kia-soluto-ha-noi/giam-nhieu-tien-mat-tang-the-cham-xe-1-nam-tra-gop-lai-suat-thap-aid1xm22661608"
+          href="../Page/Detail.jsp"
           class="rt pdt-per-74"> <img
           title="Giảm nhiều tiền mặt, tặng thẻ chăm xe 1 năm, trả góp lãi suất thấp"
 <%--          img--%>
@@ -14,7 +14,7 @@
   </div>
   <div class="info"><h3 class="title"><a
           title="Giảm nhiều tiền mặt, tặng thẻ chăm xe 1 năm, trả góp lãi suất thấp"
-          href="/mua-ban-xe-kia-soluto-ha-noi/giam-nhieu-tien-mat-tang-the-cham-xe-1-nam-tra-gop-lai-suat-thap-aid1xm22661608">Kia
+          href="../Page/Detail.jsp">Kia
     Soluto MT Deluxe 2022 - Giảm nhiều tiền mặt, tặng thẻ chăm xe 1 năm, trả góp lãi
     suất thấp</a></h3>
     <p class="price">424 triệu</p>

@@ -1,8 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <style>
         <%@include file="footer.css" %>
     </style>

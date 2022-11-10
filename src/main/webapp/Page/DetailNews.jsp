@@ -106,6 +106,6 @@
 
         </div>
     </div>
-<jsp:include page="../Component/footer/Footer.jsp"/>
+<jsp:include page="../Component/footer/footer.jsp"/>
 </body>
 </html>

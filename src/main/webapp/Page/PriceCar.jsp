@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./PriceCar.css">
 </head>
 <body>
-<%@include file="../component/header/Header.jsp" %>
+<jsp:include page="../Component/header/Header.jsp" />
 <div class="container">
     <section class="banner-location-top">
         <section class="cpn-bn-campaign-globals" id="cpn-bn-campaign-globals-18-16"
@@ -376,6 +376,6 @@
     </div>
 
 </div>
-<%@include file="../component/footer/footer.jsp" %>
+<jsp:include page="../Component/footer/footer.jsp" />
 </body>
 </html>

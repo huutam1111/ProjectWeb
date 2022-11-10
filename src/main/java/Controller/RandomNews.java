@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RandomNews implements Serializable {
-    private List<ItemNews> list = new ArrayList<>();
+    private List<ItemNews> list = new ArrayList<ItemNews>();
 
     public List<ItemNews> getList() {
         for(int i = 0 ; i < 5 ; i++){
