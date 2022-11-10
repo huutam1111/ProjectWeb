@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=1519px, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+
 
     <style>
         <%@include file="detail.css" %>
@@ -13,11 +15,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-<<<<<<< HEAD
 <jsp:include page="../Component/header/Header.jsp" />
-=======
-<%--<jsp:include page="../Component/header/Header.jsp" />--%>
->>>>>>> c380fd4 (Them Page Login/Register, mua bán oto, Gia xeo oto, chi tiết giá xe oto)
 <div class="container " style="height: auto" id="detailPage">
     <img src="https://img1.oto.com.vn/Static/Images/otocare/web/477_290622_MuaXeTaiDay_AnTamKiemDinh_1140x140.webp" alt="OTOCheck" width="1140" height="140">
     <div class="content-detail">
@@ -132,81 +130,125 @@
                 </div>
             </div>
 
-            <div class="comment">
+            <div class="comment"    >
                 <h5>ĐÁNH GIÁ NGƯỜI BÁN
                 </h5>
                 <h5>5.0 <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <span style="font-size: 16px; font-weight: normal" >(2 lượt đánh giá)</span></h5>
+                <br/>
+                <div class="box-input" >
+                   <form action="">
+                       <h5 style="text-align: center; font-weight: bold">Nội dung đánh giá</h5>
+                       <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+
+                       <div style="display: flex">
+                           <p style="margin-top: 8px"><b>Đánh giá:</b></p>
+                           <div class="stars">
+                               <form action="">
+                                   <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                   <label class="star star-5" for="star-5"></label>
+                                   <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                   <label class="star star-4" for="star-4"></label>
+                                   <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                   <label class="star star-3" for="star-3"></label>
+                                   <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                   <label class="star star-2" for="star-2"></label>
+                                   <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                   <label class="star star-1" for="star-1"></label>
+                               </form>
+                           </div>
+                       </div>
+                       <div class="box-bt"><button type="submit" class="bt-comment">Gửi đánh giá</button></div>
+                   </form>
+                </div>
+
+                <div class="list-comment">
+                    <div class="cmt">
+                        <div class="start-cmt">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+                        <p>từ <b>Giá Trí</b>, <span class="cl-lg">30/11/2022</span></p>
+                        <p>Chuyên nghiệp</p>
+                    </div>
+                    <div class="cmt">
+                        <div class="start-cmt">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+                        <p>từ <b>Giá Trí</b>, <span class="cl-lg">30/11/2022</span></p>
+                        <p>Chuyên nghiệp</p>
+                    </div>
+                    <div class="cmt">
+                        <div class="start-cmt">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+                        <p>từ <b>Giá Trí</b>, <span class="cl-lg">30/11/2022</span></p>
+                        <p>Chuyên nghiệp</p>
+                    </div>
+                    <div class="cmt">
+                        <div class="start-cmt">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+                        <p>từ <b>Giá Trí</b>, <span class="cl-lg">30/11/2022</span></p>
+                        <p>Chuyên nghiệp</p>
+                    </div>
+                    <div class="cmt">
+                        <div class="start-cmt">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+                        <p>từ <b>Giá Trí</b>, <span class="cl-lg">30/11/2022</span></p>
+                        <p>Chuyên nghiệp</p>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="right-detail">
-            <div class="info-contact">
-               <div>
-                <div class="avatar-contact">
-                    <img src="https://cf.shopee.vn/file/41a063b18ce76bb21b9f725fe334a125"/>
-                </div>
-                <div class="info-store"> Liên hệ chúng tôi</div>
-                <a href="" style="font-size: 12px">Xem gian hàng >> </a>
-            </div>
-
-                <hr/>
-                <ul class="protect">
-                    <li> <i class="fa-solid fa-shield-heart"></i> <span> Đảm bảo
-            pháp lý
-        </span> </li>
-                    <li> <i class="fa-solid fa-shield-heart"></i><span> Bảo hành xe
-            3-6 tháng
-        </span> </li>
-                    <li><i class="fa-solid fa-shield-heart"></i><span> Giải quyết
-            khiếu nại nhanh
-        </span> </li>
-                </ul>
-                <hr/>
-                <p style="text-align: center; font-size: 14px">Địa chỉ: Số 8 Châu Văn Liêm - Nam Từ Liêm - Hà Nôi
-                <button class="button-call">034555xxxx</button>
-                </p>
-
-            </div>
-            <br/>
-            <div id="banner-otocheck" class="mt-30"> <img style="width: 100%" title="otocheck"
-                                                          src="https://img1.oto.com.vn/Static/Images/otocheck/otocheck_360x240.png" alt="otocheck"
-                                                          height="240"> </div>
-            <br/>
-            <div id="banner-otocheck2" class="mt-30"> <img style="width: 100%" title="otocheck"
-                                                          src="https://img1.oto.com.vn/2022/11/04/hoKjcr3B/360x300-5da3.png " alt="otocheck"
-                                                          height="240"> </div>
-            <br/>
-            <div class="hotkeyword">
-                <div style="background-color: #135EAC; padding: 5px 10px"> <h5 style="color: white;margin-bottom: 0; font-size: 17px">Từ khoá nổi bật</h5></div>
-                <div style="padding: 10px; display: flex; flex-direction: column">
-                    <a href="">Mua xe Kia Frontier</a>
-                    <a href="">Mua bán xe Kia Sedona</a>
-                    <a href="">Bán xe Kia Morning Luxury</a>
-                    <a href="">Mua xe Kia K250</a>
-                    <a href="">Kia cũ Hải Dương</a>
-                    <a href="">Giá bán Kia K3 cũ</a>
-
-                </div>
-
-            </div>
+           <jsp:include page="../Component/keyword/keyword.jsp"></jsp:include>
         </div>
     </div>
 
 </div>
-<<<<<<< HEAD
 <jsp:include page="../Component/footer/Footer.jsp" />
 
 </body>
 <script>
-    <%@include file="slideDetail.js" %>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
 
 </script>
-=======
-<%--<jsp:include page="../Component/footer/footer.jsp" />--%>
-
-</body>
-<%--<script>--%>
-<%--    <%@include file="slideDetail.js" %>--%>
-
-<%--</script>--%>
->>>>>>> c380fd4 (Them Page Login/Register, mua bán oto, Gia xeo oto, chi tiết giá xe oto)
 </html>
