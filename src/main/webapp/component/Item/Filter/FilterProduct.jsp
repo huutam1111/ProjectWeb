@@ -45,7 +45,8 @@
         hãng
       </div>
       <div class="loca"><i class="icon-location"></i>Hà Nội</div>
-      <span class="saved" id="SavingAuto22661258"
-            onclick="ProductSave.AddSavingAuto(this,'22661258')"></span></div>
+<%--      <span class="saved" id="SavingAuto22661258"--%>
+      <%--            onclick="ProductSave.AddSavingAuto(this,'22661258')"></span>--%>
+    </div>
   </div>
 </div>

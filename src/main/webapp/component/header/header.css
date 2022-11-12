@@ -208,6 +208,9 @@ a {
     padding-top: 46px;
     letter-spacing: -.02em;
 }
+a {
+    text-decoration: none !important;
+}
 
 .navi .menu-top {
     margin: 0;

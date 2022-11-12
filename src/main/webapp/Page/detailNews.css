@@ -27,3 +27,6 @@
     font-size: 17px;
     font-weight: bold;
 }
+.box-search-head-element label{
+    margin: 0;
+}

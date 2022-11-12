@@ -1,4 +1,4 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -20,8 +20,7 @@
     <div class="header">
         <div class="header-top">
             <div class="container">
-                <div class="left-head"> Hotline: 0904.573.739
-                    <a rel="nofollow" href="/member/bao-gia">Báo giá</a></div>
+                <div class="left-head"> Hotline: 09793459242</div>
                 <div class="head-right">
                     <div class="box-search-head">
                         <div class="box-search-head-element"><label for="txtKeyword"></label> <input id="txtKeyword"
@@ -34,7 +33,7 @@
                             <ul class="sub-search" id="sub-search"></ul>
                         </div>
                     </div>
-                    <div class="noti" id="auto_save"><a rel="nofollow" id="showautosaved" href="../Page/Cart.jsp"
+                    <div class="noti" id="auto_save"><a rel="nofollow" id="showautosaved" href="/Page/Cart.jsp"
                                                         title="Xe đã lưu"><i class="fa-solid fa-cart-shopping"></i></a>
                         <span
                                 id="countproduct" class=""></span>
@@ -42,21 +41,18 @@
                     </div>
                     <div class="box-login-acc" id="login">
                         <span>
-        <a href="../Page/Login_Register.jsp" rel="nofollow" id="dangky">Đăng ký/ Đăng nhập</a>
+        <a href="/Page/Login_Register.jsp" rel="nofollow" id="dangky">Đăng ký/ Đăng nhập</a>
     </span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="navi navi-fix menu-v2">
-            <div class="container"><a class="logo" href="/Page/Home.jsp"><h2 class="slogan">Kênh thông tin và giao
+            <div class="container"><a class="logo" href="/"><h2 class="slogan">Kênh thông tin và giao
                 dịch về ôtô </h2>
             </a>
                 <ul class="menu-top">
                     <li><a href="/Page/Filter.jsp" data-key="/mua-ban-xe"><h2>Mua bán ô tô</h2></a>
-                    </li>
-                    <li><a href="/salons" data-key="/salons"><h2>Danh bạ</h2></a>
-                    </li>
                     <li><a href="/Page/PriceCar.jsp" data-key="/bang-gia-xe-o-to"><h2>Giá xe ô tô</h2></a>
 
                     </li>

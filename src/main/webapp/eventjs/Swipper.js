@@ -8,7 +8,6 @@ btn_next.addEventListener("click", (e)=>{
     if(tmp!=0){
         btn_pre.classList.remove("swiper-button-disabled")
     }
-    console.log(tmp)
     if(tmp<=-2280){
         btn_next.classList.add("swiper-button-disabled")
     }

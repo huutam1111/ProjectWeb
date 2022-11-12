@@ -24,18 +24,9 @@
     </style>
 </head>
 <body>
-<jsp:include page="../Component/header/Header.jsp" />
+<jsp:include page="../Component/header/Header.jsp"/>
 <div class="container">
-    <div class="filter-header">
-        <a href="/banner-click-2524?url=https%3a%2f%2foto.com.vn%2f%3fregister" title="New-Account_MinhDA_1140x140"
-           rel="nofollow" target="&quot;_blank&quot;" class="rt pdt-per-12">
-            <img data-name="New-Account_MinhDA_1140x140" data-position="LargeLeaderboard" data-page="List"
-                 title="New-Account_MinhDA_1140x140" class="lozad"
-                 src="../Img/1140x140-abfd.png"
-                 data-src="https://img1.oto.com.vn/2022/11/04/hoKjcr3B/1140x140-abfd.png"
-                 alt="New-Account_MinhDA_1140x140" width="1140" height="140" data-loaded="true">
-        </a>
-    </div>
+    <jsp:include page="/Component/header/FilterHeader.jsp"/>
     <div class="container-content">
         <div class="Container-left">
             <h1 class="heading mb-10">Mua bán xe ô tô mới</h1>
@@ -44,7 +35,7 @@
                                                                                                  value="0"> <input
                     type="hidden" id="hddMinYear" value="0"> <input type="hidden" id="hddMaxYear" value="0"> <input
                     type="hidden" id="hddMakeName">
-                <div class="box-brand box-dropdown list-brand " id="filtermake"><a href="/mua-ban-xe-toyota"
+                <div class="box-brand box-dropdown list-brand " id="filtermake"><a href="#"
                                                                                    data-id="79"
                                                                                    data-shortmakename="toyota"
                                                                                    class="item" onclick=""> <span
@@ -53,40 +44,40 @@
                         class="lozad" src="https://img1.oto.com.vn/Static/Images/logo/v2/toyota.png"
                         data-src="https://img1.oto.com.vn/Static/Images/logo/v2/toyota.png" alt=""
                         data-loaded="true"></span>
-                    <h2 class="name">Toyota</h2></a> <a href="/mua-ban-xe-honda" data-id="28" data-shortmakename="honda"
+                    <h2 class="name">Toyota</h2></a> <a href="#" data-id="28" data-shortmakename="honda"
                                                         class="item"> <span data-gtm-vis-has-fired-13008071_909="1"><img
                         class="lozad" src="https://img1.oto.com.vn/Static/Images/logo/v2/honda.png"
                         data-src="https://img1.oto.com.vn/Static/Images/logo/v2/honda.png" alt=""
                         data-loaded="true"></span>
-                    <h2 class="name">Honda</h2></a> <a href="/mua-ban-xe-hyundai" data-id="30"
+                    <h2 class="name">Honda</h2></a> <a href="#" data-id="30"
                                                        data-shortmakename="hyundai" class="item"> <span
                         data-gtm-vis-has-fired-13008071_909="1"><img class="lozad"
                                                                      src="https://img1.oto.com.vn/Static/Images/logo/v2/hyundai.png"
                                                                      data-src="https://img1.oto.com.vn/Static/Images/logo/v2/hyundai.png"
                                                                      alt="" data-loaded="true"></span>
-                    <h2 class="name">Hyundai</h2></a> <a href="/mua-ban-xe-mazda" data-id="48"
+                    <h2 class="name">Hyundai</h2></a> <a href="#" data-id="48"
                                                          data-shortmakename="mazda" class="item"> <span
                         data-gtm-vis-has-fired-13008071_909="1"><img class="lozad"
                                                                      src="https://img1.oto.com.vn/Static/Images/logo/v2/mazda.png"
                                                                      data-src="https://img1.oto.com.vn/Static/Images/logo/v2/mazda.png"
                                                                      alt="" data-loaded="true"></span>
-                    <h2 class="name">Mazda</h2></a> <a href="/mua-ban-xe-kia" data-id="35" data-shortmakename="kia"
+                    <h2 class="name">Mazda</h2></a> <a href="#" data-id="35" data-shortmakename="kia"
                                                        class="item"> <span data-gtm-vis-has-fired-13008071_909="1"><img
                         class="lozad" src="https://img1.oto.com.vn/Static/Images/logo/v2/kia.png"
                         data-src="https://img1.oto.com.vn/Static/Images/logo/v2/kia.png" alt=""
                         data-loaded="true"></span>
-                    <h2 class="name">KIA</h2></a> <a href="/mua-ban-xe-ford" data-id="22" data-shortmakename="ford"
+                    <h2 class="name">KIA</h2></a> <a href="#" data-id="22" data-shortmakename="ford"
                                                      class="item"> <span data-gtm-vis-has-fired-13008071_909="1"><img
                         class="lozad" src="https://img1.oto.com.vn/Static/Images/logo/v2/ford.png"
                         data-src="https://img1.oto.com.vn/Static/Images/logo/v2/ford.png" alt=""
                         data-loaded="true"></span>
-                    <h2 class="name">Ford</h2></a> <a href="/mua-ban-xe-mercedes-benz" data-id="92"
+                    <h2 class="name">Ford</h2></a> <a href="#" data-id="92"
                                                       data-shortmakename="mercedes-benz" class="item"> <span
                         data-gtm-vis-has-fired-13008071_909="1"><img class="lozad"
                                                                      src="https://img1.oto.com.vn/Static/Images/logo/v2/mercedes-benz.png"
                                                                      data-src="https://img1.oto.com.vn/Static/Images/logo/v2/mercedes-benz.png"
                                                                      alt="Mercedes-Benz" data-loaded="true"></span>
-                    <h2 class="name">Mercedes</h2></a> <a href="/mua-ban-xe-nissan" data-id="55"
+                    <h2 class="name">Mercedes</h2></a> <a href="#" data-id="55"
                                                           data-shortmakename="nissan" class="item"> <span
                         data-gtm-vis-has-fired-13008071_909="1"><img class="lozad"
                                                                      src="https://img1.oto.com.vn/Static/Images/logo/v2/nissan.png"
@@ -400,7 +391,7 @@
             </div>
             <%--            ListItem--%>
             <div class="box-list-car" id="box-list-car">
-                <c:forEach begin="0" end="20">
+                <c:forEach begin="0" end="99">
                     <%@include file="../Component/Item/Filter/FilterProduct.jsp" %>
                 </c:forEach>
 
@@ -427,23 +418,23 @@
             <h2 class="heading-c">Phiên bản ô tô nổi bật</h2>
             <div class="box-content-c">
                 <ul class="list-link-c">
-                    <li><a href="/mua-ban-xe-toyota-vios" title="Toyota Vios MT "><h3>Toyota Vios MT </h3></a></li>
-                    <li><a href="/mua-ban-xe-mazda-3" title="Mua xe Mazda 3"><h3>Mua xe Mazda 3</h3></a></li>
-                    <li><a href="/mua-ban-xe-mazda-cx-5" title="Bán xe Mazda CX5"><h3>Bán xe Mazda CX5</h3></a></li>
-                    <li><a href="/mua-ban-xe-kia-cerato" title="Bán xe Kia Cerato"><h3>Bán xe Kia Cerato</h3></a></li>
-                    <li><a href="/mua-ban-xe-kia-morning" title="Mua xe Kia Morning"><h3>Mua xe Kia Morning</h3></a>
+                    <li><a href="/Page/Filter.jsp" title="Toyota Vios MT "><h3>Toyota Vios MT </h3></a></li>
+                    <li><a href="/Page/Filter.jsp" title="Mua xe Mazda 3"><h3>Mua xe Mazda 3</h3></a></li>
+                    <li><a href="/Page/Filter.jsp" title="Bán xe Mazda CX5"><h3>Bán xe Mazda CX5</h3></a></li>
+                    <li><a href="/Page/Filter.jsp" title="Bán xe Kia Cerato"><h3>Bán xe Kia Cerato</h3></a></li>
+                    <li><a href="/Page/Filter.jsp" title="Mua xe Kia Morning"><h3>Mua xe Kia Morning</h3></a>
                     </li>
-                    <li><a href="/mua-ban-xe-honda-city" title="Bán xe Honda City "><h3>Bán xe Honda City </h3></a></li>
-                    <li><a href="/mua-ban-xe-honda-civic" title="Mua xe Honda Civic"><h3>Mua xe Honda Civic</h3></a>
+                    <li><a href="/Page/Filter.jsp" title="Bán xe Honda City "><h3>Bán xe Honda City </h3></a></li>
+                    <li><a href="/Page/Filter.jsp" title="Mua xe Honda Civic"><h3>Mua xe Honda Civic</h3></a>
                     </li>
-                    <li><a href="/mua-ban-xe-ford-ranger" title="Mua xe Ford Ranger "><h3>Mua xe Ford Ranger </h3></a>
+                    <li><a href="/Page/Filter.jsp" title="Mua xe Ford Ranger "><h3>Mua xe Ford Ranger </h3></a>
                     </li>
-                    <li><a href="/mua-ban-xe-toyota-vios" title="Bán xe Toyota Vios"><h3>Bán xe Toyota Vios</h3></a>
+                    <li><a href="/Page/Filter.jsp" title="Bán xe Toyota Vios"><h3>Bán xe Toyota Vios</h3></a>
                     </li>
-                    <li><a href="/mua-ban-xe-hyundai-grand-i10" title="Giá xe Hyundai i10 "><h3>Mua xe Hyundai i10</h3>
+                    <li><a href="/Page/Filter.jsp" title="Giá xe Hyundai i10 "><h3>Mua xe Hyundai i10</h3>
                     </a>
                     </li>
-                    <li><a href="/mua-ban-xe-hyundai-accent" title="Mua xe Hyundai Accent"><h3>Mua xe Hyundai
+                    <li><a href="/Page/Filter.jsp" title="Mua xe Hyundai Accent"><h3>Mua xe Hyundai
                         Accent</h3>
                     </a></li>
                 </ul>
@@ -456,7 +447,7 @@
 </div>
 
 </div>
-<jsp:include page="../Component/footer/footer.jsp" />
+<jsp:include page="../Component/footer/footer.jsp"/>
 </body>
 <script>
     $(document).ready(function () {

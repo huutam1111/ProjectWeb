@@ -1,8 +1,14 @@
 <%@ page contentType="text/html; charset=UTF-8" language="java" %>
-
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
 <div class="item box-list-car-item box-item-home">
     <div class="photo" style="height: 196px;"><a
-            href="/../Page/Detail.jsp"
+            href="/Page/Detail.jsp"
             class="rt pdt-per-74"> <img
             title="Giảm nhiều tiền mặt, tặng thẻ chăm xe 1 năm, trả góp lãi suất thấp"
     <%--          img--%>
@@ -12,7 +18,7 @@
     </div>
     <div class="info"><h3 class="title"><a
             title="Giảm nhiều tiền mặt, tặng thẻ chăm xe 1 năm, trả góp lãi suất thấp"
-            href="../Page/Detail.jsp">Kia
+            href="/Page/Detail.jsp">Kia
         Soluto MT Deluxe 2022 - Giảm nhiều tiền mặt, tặng thẻ chăm xe 1 năm, trả góp lãi
         suất thấp</a></h3>
         <p class="price">424 triệu</p>
@@ -45,3 +51,5 @@
             giá</a></div>
     </div>
 </div>
+</body>
+</html>

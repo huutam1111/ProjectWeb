@@ -14,39 +14,8 @@
 <body>
 <jsp:include page="../Component/header/Header.jsp" />
 <div class="container">
-    <section class="banner-location-top">
-        <section class="cpn-bn-campaign-globals" id="cpn-bn-campaign-globals-18-16"
-                 style="aspect-ratio: calc(1140/140)"><input type="hidden" name="pageID" value="18"> <input
-                type="hidden" name="localtionID" value="16"> <input type="hidden" name="makeID" value="0"> <input
-                type="hidden" name="modelId" value="0"> <input type="hidden" name="width" value="1140"> <input
-                type="hidden" name="height" value="140"> <input type="hidden" name="bannerTemplate"
-                                                                value="DesktopLargeLeaderboard"> <input type="hidden"
-                                                                                                        name="bannerTemplateType"
-                                                                                                        value="0">
-            <input type="hidden" name="classProperty"> <input type="hidden" name="platform" value="0"> <input
-                    type="hidden" name="isLargestContentPaint" value="1"> <input type="hidden" name="classProperty">
 
-            <section class="cpn-banner-main-wrap">
-
-
-                <link rel="preload" as="image" href="https://img1.oto.com.vn/2022/11/04/hoKjcr3B/1140x140-abfd.png">
-                <div class="banner-center-image mg-top-10" data-id="2524">
-                    <a href="/banner-click-2524?url=https%3a%2f%2foto.com.vn%2f%3fregister"
-                       title="New-Account_MinhDA_1140x140" rel="nofollow" target="&quot;_blank&quot;"
-                       class="rt pdt-per-12">
-                        <img data-name="New-Account_MinhDA_1140x140" data-position="LargeLeaderboard"
-                             data-page="ArticlePrice" title="New-Account_MinhDA_1140x140" class="lozad"
-                             src="https://img1.oto.com.vn/2022/11/04/hoKjcr3B/1140x140-abfd.png"
-                             data-src="https://img1.oto.com.vn/2022/11/04/hoKjcr3B/1140x140-abfd.png"
-                             alt="New-Account_MinhDA_1140x140" width="1140" height="140" data-loaded="true">
-                    </a>
-                </div>
-
-            </section>
-
-        </section>
-        <script src="https://img1.oto.com.vn/Static/Scripts/lazysizes.min.js" defer=""></script>
-    </section>
+    <jsp:include page="../Component/header/FilterHeader.jsp"/>
     <div class="b-column cpn-price-car" style="width: 100%;">
         <div class="box-list-price"><h1 class="heading">Bảng giá xe ô tô tháng 11/2022 mới nhất.</h1>
             <div class="sub-text"><p>Cập nhật bảng giá xe tháng 11/2022 của hơn 30 hãng <strong><a href="/" title="oto">oto</a></strong><strong> </strong>tại&nbsp;Việt

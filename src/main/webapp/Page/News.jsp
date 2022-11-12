@@ -30,7 +30,7 @@
         <div  class="s1">
             <div class="s1_1">
                 <div class="col-left" style="position: relative">
-                    <a href="/khuyen-mai-tu-cac-hang/uu-dai-suzuki-thang-11-2022-articleid-3q50tbk"
+                    <a href="/Page/DetailNews.jsp"
                        class="photo rt pdt-per-56">
                         <img class="lozad"
                              src="https://img1.oto.com.vn/crop/762x429/2022/11/09/OpzfnMD2/xl7-uu-dai1-5995.jpg"
@@ -47,7 +47,7 @@
             </div>
             <div class="s1_2" style="display: flex; flex-direction: column; gap: 10px">
                 <div class="col-left"  >
-                    <a href="/khuyen-mai-tu-cac-hang/uu-dai-suzuki-thang-11-2022-articleid-3q50tbk"
+                    <a href="/Page/DetailNews.jsp"
                        class="photo rt pdt-per-56">
                         <img class="lozad"
 
@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="col-left">
-                    <a href="/khuyen-mai-tu-cac-hang/uu-dai-suzuki-thang-11-2022-articleid-3q50tbk"
+                    <a href="/Page/DetailNews.jsp"
                        class="photo rt pdt-per-56">
                         <img class="lozad"
                              src="https://img1.oto.com.vn/crop/762x429/2022/11/09/OpzfnMD2/xl7-uu-dai1-5995.jpg"

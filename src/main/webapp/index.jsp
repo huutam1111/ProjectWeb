@@ -61,7 +61,7 @@
                             <div class="item i-toyota swiper-slide swiper-slide-active" style="width: 190px;"><a
 
                             <%--                                    Gọi Api--%>
-                                    href="./Filter.jsp"> <span
+                                    href="#"> <span
                                     data-gtm-vis-recent-on-screen-13008071_909="1419"
                                     data-gtm-vis-first-on-screen-13008071_909="1419"
                                     data-gtm-vis-total-visible-time-13008071_909="100"
@@ -69,78 +69,78 @@
                             </a></div>
                             <div class="item i-hyundai swiper-slide swiper-slide-next" style="width: 190px;">
                                 <a
-                                        href="/mua-ban-xe-hyundai"> <span
+                                        href="#"> <span
                                         data-gtm-vis-has-fired-13008071_909="1"> <h3>Hyundai</h3> </span> </a>
                             </div>
                             <div class="item i-vinfast swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-vinfast">
+                                    href="#">
                                 <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Vinfast</h3> </span> </a></div>
-                            <div class="item i-kia swiper-slide" style="width: 190px;"><a href="/mua-ban-xe-kia"> <span
+                            <div class="item i-kia swiper-slide" style="width: 190px;"><a href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>KIA</h3> </span> </a></div>
                             <div class="item i-ford swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-ford"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Ford</h3> </span> </a></div>
                             <div class="item i-mazda swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-mazda"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Mazda</h3> </span> </a></div>
                             <div class="item i-honda swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-honda"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Honda</h3> </span> </a></div>
                             <div class="item i-mitsubishi swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-mitsubishi"> <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Mitsubishi</h3> </span>
+                                    href="#"> <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Mitsubishi</h3> </span>
                             </a></div>
                             <div class="item i-peugeot swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-peugeot">
+                                    href="#">
                                 <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Peugeot</h3> </span> </a></div>
                             <div class="item i-mercedes-benz swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-mercedes-benz"> </span>
+                                    href="#"> </span>
                                 href="./Filter.jsp"> <span
                                         data-gtm-vis-has-fired-13008071_909="1"> <h3>Hyundai</h3> </span> </a></div>
                             <div class="item i-vinfast swiper-slide" style="width: 190px;"><a
-                                    href="./Filter.jsp">
+                                    href="#">
                                 <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Vinfast</h3> </span> </a></div>
                             <div class="item i-kia swiper-slide" style="width: 190px;"><a href="./Filter.jsp"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>KIA</h3> </span> </a></div>
                             <div class="item i-ford swiper-slide" style="width: 190px;"><a
-                                    href="./Filter.jsp"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Ford</h3> </span> </a></div>
                             <div class="item i-mazda swiper-slide" style="width: 190px;"><a
-                                    href="./Filter.jsp"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Mazda</h3> </span> </a></div>
                             <div class="item i-honda swiper-slide" style="width: 190px;"><a
-                                    href="./Filter.jsp"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Honda</h3> </span> </a></div>
                             <div class="item i-mitsubishi swiper-slide" style="width: 190px;"><a
-                                    href="./Filter.jsp"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Mitsubishi</h3> </span>
                             </a></div>
                             <div class="item i-peugeot swiper-slide" style="width: 190px;"><a
-                                    href="./Filter.jsp">
+                                    href="#">
                                 <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Peugeot</h3> </span> </a></div>
                             <div class="item i-mercedes-benz swiper-slide" style="width: 190px;"><a
-                                    href="./Filter.jsp"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Mercedes</h3> </span>
                             </a></div>
                             <div class="item i-lexus swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-lexus"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Lexus</h3> </span> </a></div>
-                            <div class="item i-suzuki swiper-slide" style="width: 190px;"><a href="/mua-ban-xe-suzuki">
+                            <div class="item i-suzuki swiper-slide" style="width: 190px;"><a href="#">
                                 <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Suzuki</h3> </span> </a></div>
-                            <div class="item i-bmw swiper-slide" style="width: 190px;"><a href="/mua-ban-xe-bmw"> <span
+                            <div class="item i-bmw swiper-slide" style="width: 190px;"><a href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>BMW</h3> </span> </a></div>
-                            <div class="item i-nissan swiper-slide" style="width: 190px;"><a href="/mua-ban-xe-nissan">
+                            <div class="item i-nissan swiper-slide" style="width: 190px;"><a href="#">
                                 <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Nissan</h3> </span> </a></div>
                             <div class="item i-audi swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-audi"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Audi</h3> </span> </a></div>
                             <div class="item i-porsche swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-porsche">
+                                    href="#">
                                 <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Porsche</h3> </span> </a></div>
                             <div class="item i-landrover swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-landrover"> <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Landrover</h3> </span>
+                                    href="#"> <span data-gtm-vis-has-fired-13008071_909="1"> <h3>Landrover</h3> </span>
                             </a></div>
                             <div class="item i-mini swiper-slide" style="width: 190px;"><a
-                                    href="/mua-ban-xe-mini"> <span
+                                    href="#"> <span
                                     data-gtm-vis-has-fired-13008071_909="1"> <h3>Mini</h3> </span> </a></div>
                         </div>
                     </div>

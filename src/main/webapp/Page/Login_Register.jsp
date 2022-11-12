@@ -77,15 +77,13 @@
                     </div>
 
                     <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Register</button>
-                    <a class="back-home" href="./Home.jsp">
-                        Back To Home
-                    </a>
-
-
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
                     <!-- Register buttons -->
                     <div class="text-center">
-                        <p>Not a member? <a href="#!">Register</a></p>
+                        <a class="back-home" href="/index.jsp">
+                            <i class="fa-solid fa-backward"></i>
+                            Back To Home
+                        </a>
                     </div>
                 </form>
             </div>
@@ -152,10 +150,13 @@
                     </div>
 
                     <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
-                    <a class="back-home" href="./Home.jsp">
-                        Back To Home
-                    </a>
+                    <button type="submit" class="btn btn-primary btn-block mb-3">Register</button>
+                    <div style="text-align: center">
+                        <a class="back-home" href="/index.jsp">
+                            <i class="fa-solid fa-backward"></i>
+                            Back To Home
+                        </a>
+                    </div>
 
                 </form>
             </div>
