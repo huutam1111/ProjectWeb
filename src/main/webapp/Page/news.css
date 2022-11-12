@@ -56,7 +56,7 @@
 }
 #news .box-cate-list{
     display: flex;
-
+    gap: 10px;
 }
 #news .col-big{
     flex: 2;

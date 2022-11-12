@@ -57,12 +57,7 @@
                                                             data-gtm-vis-has-fired-13008071_909="1"><i
                             class="fa-brands fa-youtube"></i></span> <span class="txt"
                                                                            data-gtm-vis-has-fired-13008071_909="1">Youtube</span>
-                    </a> <a rel="nofollow"
-                            target="_blank" title="Đối tác" href="/member/doi-tac" class="social-link_item"> <span
-                            class="circle" data-gtm-vis-has-fired-13008071_909="1"><i
-                            class="fa-solid fa-user-group"></i></span> <span class="txt"
-                                                                             data-gtm-vis-has-fired-13008071_909="1">Partners</span>
-                    </a></div>
+                    </a> </div>
                 </div>
                 <div class="col">
                     <div class="app-link">

@@ -82,7 +82,7 @@
         </div>
       <div class="line"></div>
       <br/>
-        <div class="s2" style="display: flex; ">
+        <div class="s2" style="display: flex; gap: 10px ">
 
             <div class="content" style="flex: 2">
 

@@ -40,13 +40,23 @@
 .footer .f-social{
     display: flex;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 20px;
+
     color: white;
     flex-wrap: wrap;
 
+
 }
 .footer .f-social a{
-    color: white;
+}
+.footer .f-social .circle{
+    padding: 5px    ;
+
+}
+.footer .f-social .circle i{
+    color:  #135EAC;
+
+
 }
 .footer .f-social a:hover{
     color: white;

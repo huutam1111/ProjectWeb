@@ -18,7 +18,8 @@
 <jsp:include page="../Component/header/Header.jsp" />
 <div class="container " style="height: auto" id="detailPage">
     <img src="https://img1.oto.com.vn/Static/Images/otocare/web/477_290622_MuaXeTaiDay_AnTamKiemDinh_1140x140.webp" alt="OTOCheck" width="1140" height="140">
-    <div class="content-detail">
+
+    <div class="content-detail" style="margin-top: 10px">
         <div class="left-detail">
             <div class="group-title-detail">
                 <h1 class="title-detail"> Mazda CX-5 2.0 Luxury 2022 - 879 triệu</h1>
