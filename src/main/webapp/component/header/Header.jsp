@@ -47,8 +47,7 @@
             </div>
         </div>
         <div class="navi navi-fix menu-v2">
-            <div class="container"><a class="logo" href="/"><h2 class="slogan">Kênh thông tin và giao
-                dịch về ôtô </h2>
+            <div class="container"><a class="logo" href="/">
             </a>
                 <ul class="menu-top">
                     <li><a href="/Page/Filter.jsp" data-key="/mua-ban-xe"><h2>Mua bán ô tô</h2></a>

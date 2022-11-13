@@ -188,15 +188,14 @@ a {
 
 /*UPDATE khi sữa path*/
 .header .navi .logo {
-    background: url("/Img/logo.svg") center top no-repeat;
+    background: url("/Img/logo.jpg") center top no-repeat;
     background-size: contain;
-    margin-top: 12px;
 }
 
 .navi .logo {
     float: left;
-    width: 160px;
-    height: 60px;
+    width: 200px;
+    height: 100%;
 }
 
 .navi .logo .slogan {
