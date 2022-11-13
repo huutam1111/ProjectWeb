@@ -40,9 +40,9 @@
     <div class="container" id="box-home">
         <div class="menu-tab">
             <ul class="">
-                <li><a href="/mua-ban-xe-moi" data-id="carnew"><h2>Mua xe mới</h2></a></li>
-                <li><a href="/mua-ban-xe-cu-da-qua-su-dung" data-id="carold"><h2>Tìm xe cũ</h2></a></li>
-                <li><a href="/dang-tin-ban-xe" data-id="buycar"><h2>Đăng tin ngay</h2></a></li>
+                <li><a href="/Page/Filter.jsp" data-id="carnew"><h2>Mua xe mới</h2></a></li>
+                <li><a href="/Page/Filter.jsp" data-id="carold"><h2>Tìm xe cũ</h2></a></li>
+                <li><a href="/Page/PostStatus/Img" data-id="buycar"><h2>Đăng tin ngay</h2></a></li>
             </ul>
         </div>
         <div class="slide-selling-brand"><h2 class="heading">Hãng xe bán chạy nhất</h2>

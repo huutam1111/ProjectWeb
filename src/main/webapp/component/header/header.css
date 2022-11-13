@@ -190,12 +190,14 @@ a {
 .header .navi .logo {
     background: url("/Img/logo.jpg") center top no-repeat;
     background-size: contain;
+    margin: 0 !important;
+    margin-left: -10px !important;
 }
 
 .navi .logo {
     float: left;
     width: 200px;
-    height: 100%;
+    height: 80px;
 }
 
 .navi .logo .slogan {
